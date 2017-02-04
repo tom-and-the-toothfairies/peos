@@ -8,7 +8,7 @@ CFLAGS = -g -Wall -I. -I.. -I$(PML_DIR) -I/home/jnoll/include
 
 # lib
 LIBS =  -lpml -ltcl -lm -lrt -lpthread
-TEST_LIBS = -lcheck $(LIBS)
+TEST_LIBS = -lcheck -lsubunit $(LIBS)
 LDFLAGS = -g -L/home/jnoll/lib -L$(PML_DIR)/pml/
 
 # objects
